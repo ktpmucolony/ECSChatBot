@@ -23,7 +23,6 @@ st.markdown("----")
 
 openaikey = st.text_input("Enter your openAI key: ")
 os.environ['OPENAI_API_KEY'] = openaikey
-#'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'
 
 
 def load_data():
