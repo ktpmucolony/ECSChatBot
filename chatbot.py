@@ -8,7 +8,7 @@ import os
 
 # Set the OpenAI API key
 
-title = '<p style="font-family: Georgia; color:white; text-align: center; font-size: 50px;">ECS ChatBot</p>'
+title = '<p style="font-family: Georgia; color:black; text-align: center; font-size: 50px;">ECS ChatBot</p>'
 st.markdown(title, unsafe_allow_html=True)
 
 hide_streamlit_style = """
@@ -51,7 +51,7 @@ st.write(str(response[1:]))
 
 st.markdown("----")
 
-title2 = '<p style="font-family: Georgia; color:white; text-align: center; font-size: 35px;">Powered by</p>'
+title2 = '<p style="font-family: Georgia; color:black; text-align: center; font-size: 35px;">Powered by</p>'
 st.markdown(title2, unsafe_allow_html=True)
 
 img = Image.open("ktplogo.png") 
